@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Gosplay",
+    "slug": "Gosplay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashscreen/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashscreen/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Gosplay needs access to your Camera.",
+        "NSMicrophoneUsageDescription": "Gosplay needs access to your Microphone.",
+        "NSPhotoLibraryUsageDescription": "Allow Gosplay to access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow Gosplay to save photos."
+      },
+      "bundleIdentifier": "com.natureswitch.gosplay"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splashscreen/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ],
+      "package": "com.natureswitch.gosplay"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Gosplay to access your photos.",
+          "savePhotosPermission": "Allow Gosplay to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b4798e1a-f40f-4a44-8f5f-33f1becd0079"
+      }
+    }
+  }
+}
