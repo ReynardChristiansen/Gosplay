@@ -2,15 +2,6 @@
 
 Welcome to Gosplay's mobile application frontend repository built with React Native and Expo CLI.
 
-For the backend, please refer to the [CosplayHub](https://github.com/PotatoKentang/CosplayHub) repository.
-
-## 🤝 Introducing Our Members
-- Patrick Kwon
-- Retno Shintya Hariyani
-- Marvelio Keven Wen
-- Reynard Christiansen
-- Jefferson Juan
-
 ## 🌟 Application Purpose
 Gosplay is a mobile e-commerce application that revolves around selling, buying, and renting cosplay costumes and props.
 
