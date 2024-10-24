@@ -2,6 +2,8 @@
 
 Welcome to Gosplay's mobile application frontend repository built with React Native and Expo CLI.
 
+![image alt](https://reynardchristiansen.github.io/porto/assets/project-2.png)
+
 ## 🌟 Application Purpose
 Gosplay is a mobile e-commerce application that revolves around selling, buying, and renting cosplay costumes and props.
 
